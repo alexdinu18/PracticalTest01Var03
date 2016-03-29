@@ -6,36 +6,44 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="ro.pub.cs.systems.eim.practicaltest01var03.PracticalTest01Var03MainActivity" >
+    tools:context="ro.pub.cs.systems.eim.practicaltest01var03.PracticalTest01Var02PlayActivity" >
 
     <EditText
-        android:id="@+id/riddle"
+        android:id="@+id/riddle_play"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="43dp"
+        android:layout_marginTop="70dp"
+        android:ems="10" 
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/riddle_play" />
+
+    <EditText
+        android:id="@+id/answer_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/riddle_play"
+        android:layout_below="@+id/riddle_play"
         android:ems="10"
-        android:saveEnabled="false"
-        android:text="@string/riddle" />
+        android:gravity="center"
+        android:text="@string/answer_play" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/check"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="@string/play" />
+        android:text="@string/check" />
 
-    <EditText
-        android:id="@+id/answer"
+    <Button
+        android:id="@+id/back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/riddle"
-        android:layout_below="@+id/riddle"
-        android:layout_marginTop="34dp"
-        android:ems="10"
-        android:saveEnabled="false"
-        android:text="@string/answer" />
+        android:layout_alignRight="@+id/check"
+        android:layout_below="@+id/check"
+        android:text="@string/back" />
 
 </RelativeLayout>

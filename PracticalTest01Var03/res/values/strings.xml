@@ -7,5 +7,9 @@
     <string name="riddle">riddle</string>
     <string name="answer">answer</string>
     <string name="play">Play</string>
-
+    <string name="title_activity_practical_test01_var02_play">PracticalTest01Var02PlayActivity</string>
+	<string name="answer_play">Ans</string>
+	<string name="riddle_play">Rid</string>
+    <string name="check">Check</string>
+    <string name="back">Back</string>
 </resources>
